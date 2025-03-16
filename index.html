@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+
+    <header class="header">
+        <a href="#home" class="logo"> ambit<span> ious </span></a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Main</a>
+            <a href="#skills">Skills</a>
+            <a href="#Aboutme">About me</a>
+            <a href="#contact">Contact me</a>
+            <a href="#Reviews">Rate</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>I am saudi <span>an ambitious</span></h1>
+            <h3 class="text-animation"> <span> </span></h3>
+            <p>This blog talks about the skills, ambition and interest of an ambitious person 
+                who aims to present himself and his skills to others in a creative and effective way.
+            </p>
+
+            <div class="social-icons">
+                <a href="#"><i class='bx bxl-linkedin'></i></a>
+                <a href="#"><i class='bx bxl-github'></i></a>
+                <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+            </div>
+            <div class="btn-group">
+                <a href="#Aboutme" class="btn">About me</a>
+                <a href="#contact" class="btn">Contact</a>
+                
+            </div>
+        </div>
+        <div class="home-img">
+            <img src="web.jpg" alt="">
+        </div>
+    </section>
+
+    <section class="skills" id="skills">
+        <div class="skills-container">
+            <div class="skill-box">
+                <div class="skill-info">
+                    <h2>Example Techinal skill</h2>
+                    <p> <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                            <li>React</li>
+                            <li>Node.js</li>
+                            <li>Express</li>
+                            <li>MongoDB</li>
+                        </ul> </p> 
+                </div>
+            </div>
+            <div class="skill-box">
+                <div class="skill-info">
+                    <h2>Example personal skill</h2>
+                    <p>
+                        <ul>
+                            <li>Communication</li>
+                            <li>Teamwork</li>
+                            <li>Problem-solving</li>
+                            <li>Time management</li>
+                            <li>Leadership</li>
+                            <li>Adaptability</li>
+                            <li>Work ethic</li>
+                        </ul>  
+                    </p>
+                </div>
+            </div>
+            <div class="skill-box">
+                <div class="skill-info">
+                    <h2>Employment Letter</h2>
+                    <p> 
+                        <ul>
+                            <li>Dear Sir/Madam,</li>
+                            <li>I am writing to apply for the position of Web Developer at your company, as advertised in the Daily News. I have a Bachelor’s degree in Computer Science and extensive experience in web development, including HTML, CSS, JavaScript, React, Node.js, Express, and MongoDB. I am confident that my skills and experience make me an ideal candidate for this position.</li>
+                            <li>Thank you for considering my application. I look forward to the opportunity to discuss my application in more detail.</li>
+                            <li>Yours sincerely,</li>
+                            <li>John Doe</li>
+                        </ul>
+                    </p>
+                </div>
+            </div>
+        </div>
+      
+    </section>
+    <section class="Aboutme" id="Aboutme">
+        <h6 class="heading">About<span> me</span></h6>
+        <div class="about-content">
+            <div class="left-content">
+                <img src="img.jpg" alt="">
+            </div>
+            <div class="right-content">
+                <h2>RANA AL KHDHAYR</h2>
+                <h3>Web Developer</h3>
+                <p>
+                    I am a web developer with a Bachelor’s degree in information technology
+                     and extensive experience in web development. I have a strong technical skill set, 
+                     including HTML, CSS, JavaScript, React, Node.js, Express, and MongoDB. 
+                     I am also proficient in personal skills such as communication, teamwork, 
+                     problem-solving, and time management. I am passionate about web development and 
+                     am always looking for new challenges and opportunities to learn and grow.
+                </p><br><br>
+                
+            </div>
+        </div>
+
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact<span> me: </span></h2>
+
+        <form action="">
+            <div class="input-group">
+                <div class="input-box">
+                    <input type="text" placeholder="Full Name">
+                    <input type="email" placeholder="Email">
+                </div>
+                <div class="input-box">
+                    <input type="number" placeholder="Phone Number">
+                    <input type="text" placeholder="Subject">
+                </div>
+            </div>
+            <div class="input-group-2">
+                <label for="massage">
+                <textarea name="message" cols="30" rows="10" placeholder=" type your message here"> 
+                </textarea>
+                </label>
+                <input type="submit" value="Send" class="btn">
+            </div>
+        </form>
+    </section>
+    
+
+    <section class="Reviews" id="Reviews">
+        <h2 class="heading">Rate <span> Our Website</span></h2>
+          <div class="rating">
+            
+            <input type="radio" id="star5" name="rating" value="5">
+            <label for="star5">&#9733;</label>
+            <input type="radio" id="star4" name="rating" value="4">
+            <label for="star4">&#9733;</label>
+            <input type="radio" id="star3" name="rating" value="3">
+            <label for="star3">&#9733;</label>
+            <input type="radio" id="star2" name="rating" value="2">
+            <label for="star2">&#9733;</label>
+            <input type="radio" id="star1" name="rating" value="1">
+             <label for="star1">&#9733;</label>
+    </div>
+    </section>
+
+    <footer class="footer">
+        <div class="social">
+            <a href="www.linkedin.com/in/rana-al-khudair"><i class='bx bxl-linkedin'></i></a>
+            <a href="https://github.com/Ran99999999999999"><i class='bx bxl-github'></i></a>
+            <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+            <a href="#"><i class='bx bxl-twitter'></i></a>
+        </div>
+
+        <ul class="list">
+           
+            <li>
+                <a href="#">Skills</a>
+            </li>
+
+            <li>
+                <a href="#">Main</a>
+            </li>
+
+            <li>
+                <a href="#">Contact</a>
+            </li>
+            <li>
+                <a href="#">About me</a>
+            </li>
+
+            
+        </ul>
+        <p class="copyright">
+            © هاش بلس | جميع الحقوق محفوظه
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
